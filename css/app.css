@@ -1,0 +1,78 @@
+body {
+    background-color: #120019;
+    color: #585254;
+}
+.Cover-img   {
+    background: url("../imgs/01cover.jpg") no-repeat center center;
+    background-size: cover;
+}
+.Cover-height{
+    min-height: 25vh;
+}
+.Color-blue{
+    color: #2e99ff;
+}
+.Design-quote{
+    margin: 10%
+}
+.Footer-text-color{
+    color: #c8ccd2
+}
+.Footer-text-size{
+    color: #c8ccd2;
+    font-size: small;
+    margin-bottom: 0;
+    margin-top: 37%;
+}
+.Heading {
+    margin-bottom: 10px
+}
+.Heading h1{
+    text-shadow: 1px 1px 2px #000;
+    color: #ff002f;
+    font-size: 1.9rem;
+    margin-bottom: -0.2em
+}
+.Inc-description{
+    color:#cecece;
+    font-size: small}
+.Margin-bottom{
+    margin-bottom:20px
+}
+.Margin-top{
+    margin-top:20px
+}
+.MasClapp-logo{
+    margin-top: 10%;
+    margin-bottom: 5%
+}
+.Negative-margin-top{
+    margin-top: -14px
+}
+p{
+    font-size: 1.2em
+}
+.Quote-paragraph{
+    border-left: 3px solid #1779ba;
+}
+.Retina-small-icon{
+    max-height: 21px
+}
+.Second-heading {
+    font-size: 1.8em;
+    margin-bottom: 0
+}
+.Small-line-height{
+    line-height: 1.1;
+}
+.Small-text{
+    font-size: x-small;
+    color:#c8ccd2
+}
+.Stylus-story{
+    font-size: 1.4em;
+}
+.White-color-light{
+    font-weight: lighter;
+    color: white
+}
