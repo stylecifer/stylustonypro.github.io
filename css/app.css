@@ -1,6 +1,6 @@
 body {
     background-color: #120019;
-    color: #585254;
+    color: #bfb1b6;
 }
 .Cover-img   {
     background: url("../imgs/01cover.jpg") no-repeat center center;
@@ -41,6 +41,9 @@ body {
 }
 .Margin-top{
     margin-top:20px
+}
+.Margin-top-extra{
+    margin-top:90px
 }
 .MasClapp-logo{
     margin-top: 10%;
