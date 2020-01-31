@@ -2,6 +2,9 @@ body {
     background-color: #120019;
     color: #bfb1b6;
 }
+.Bg-color-dark{
+    background-color: #000e0757
+}
 .Cover-img   {
     background: url("../imgs/01cover.jpg") no-repeat center center;
     background-size: cover;
@@ -22,22 +25,39 @@ body {
     color: #c8ccd2;
     font-size: small;
     margin-bottom: 0;
-    margin-top: 37%;
+    margin-top: 20%;
+}
+.Footer-text-size.Adstylus {
+    margin-top:0;
+
+}
+h1{
+    font-size: 2.7rem
 }
 .Heading {
     margin-bottom: 10px
 }
 .Heading h1{
-    text-shadow: 1px 1px 2px #000;
+    
     color: #ff002f;
-    font-size: 1.9rem;
-    margin-bottom: -0.2em
+    font-size: 1.73rem;
+    text-shadow: 1px 1px 2px #000;
+}
+.Hero {
+    background: url("../imgs/adstylus-cover.jpg") no-repeat center center;
+    background-size: cover;
+    color:white;
+    height: 100vh;
+    text-shadow: black 1px 1px 1px;
 }
 .Inc-description{
     color:#cecece;
-    font-size: small}
+    font-size: medium;}
 .Margin-bottom{
     margin-bottom:20px
+}
+.Margin-bottom-6{
+    margin-bottom: 6px
 }
 .Margin-top{
     margin-top:20px
@@ -46,8 +66,8 @@ body {
     margin-top:90px
 }
 .MasClapp-logo{
+    margin-bottom: 5%;
     margin-top: 10%;
-    margin-bottom: 5%
 }
 .Negative-margin-top{
     margin-top: -14px
@@ -58,8 +78,14 @@ p{
 .Quote-paragraph{
     border-left: 3px solid #1779ba;
 }
+.reveal {
+    height: fit-content;
+    padding-top: 45px;
+    background-color: #160620db;
+    color: darkgrey;
+}
 .Retina-small-icon{
-    max-height: 21px
+    max-height: 18px
 }
 .Second-heading {
     font-size: 1.8em;
@@ -69,13 +95,309 @@ p{
     line-height: 1.1;
 }
 .Small-text{
+    color:#c8ccd2;
     font-size: x-small;
-    color:#c8ccd2
 }
 .Stylus-story{
     font-size: 1.4em;
 }
+.Text-bigger{
+    font-size: 4em
+}
+.Underline{
+    text-decoration: underline;
+}
 .White-color-light{
+    color: white;
     font-weight: lighter;
-    color: white
+}
+/* Footer social icons sections */
+.linkedin, .facebook, .twitter, .github, .youtube, .instagram{
+    border-radius: 2px;
+    display: block;
+    height: 100%;
+    padding: 6% 0 3%;
+    width: 100%;
+}
+.instagram{
+    color: #e1306c;
+}
+.instagram img {
+    margin-bottom: 4px;
+}
+.instagram:hover{
+    color: white;
+    background-color: #e1306c
+}
+.twitter{
+    color: #00aced
+}
+.twitter:hover {
+    color: white;
+  background:#00aced }
+.facebook{
+    color: #2163ec;
+}
+.facebook:hover {
+    color: white;
+  background:#3b5998 }
+.github{
+    color: #9c36fb;
+}
+.github:hover {
+    color: white;
+    background:#5f04b4;
+}
+.linkedin{
+    color: #007bb6
+}
+.linkedin:hover {
+    color: white;
+    background:#007bb6 }
+.youtube{
+    color: #b00
+}
+.youtube:hover {
+    color: white;
+  background:#b00 }
+.linkedin:hover,
+.facebook:hover,
+.twitter:hover,
+.github:hover,
+.youtube:hover,
+.instagram:hover{
+    transition-duration: .8s;
+    transition-timing-function: cubic-bezier(0, 0.74, 0.9, 0.99);
+}
+.social-toniodis{
+    margin: 2em 0 3em
+}
+@font-face {
+  font-family: "foundation-icons";
+  src: url("../foundation-icons/foundation-icons.eot");
+  src: url("../foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"),
+       url("../foundation-icons/foundation-icons.woff") format("woff"),
+       url("../foundation-icons/foundation-icons.ttf") format("truetype"),
+       url("../foundation-icons/foundation-icons.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.fi-social-linkedin:before,
+.fi-social-facebook:before,
+.fi-social-twitter:before,
+.fi-social-github:before,
+.fi-social-youtube:before,
+.fi-list::before,
+.fi-x::before,
+.fi-layout::before,
+.fi-video::before,
+.fi-play-circle::before,
+.fi-photo::before,
+.fi-at-sign::before,
+.fi-address-book::before,
+.fi-torso-business::before,
+.fi-eye::before {
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    /* color: lightgrey; */
+}
+.fi-social-linkedin:before {
+    content: "\f1d0"; }
+.fi-social-twitter:before{
+    content: "\f1e4"; }
+.fi-social-facebook:before {
+    content: "\f1c4"; }
+.fi-social-github:before{
+    content: "\f1c9" }
+.fi-social-youtube:before{
+    content: "\f1ea" }
+.fi-list:before{
+    content: "\f169" }
+.fi-x:before{
+    content: "\f217" }
+.fi-layout::before{
+    content: "\f162" }
+.fi-play-circle::before{
+    content: "\f196" }
+.fi-video::before{
+    content: "\f20e" }
+.fi-photo::before{
+    content: "\f195" }
+.fi-at-sign::before{
+    content: "\f113" }
+.fi-address-book::before{
+    content: "\f100" }
+.fi-torso-business::before{
+    content: "\f1fc"
+}
+.fi-eye::before{
+    content: "\f147"
+}
+/* StyFont stiles */
+@font-face {
+  font-family: 'styfont';
+  src:
+    url('../styfont/styfont.ttf?y5zil3') format('truetype'),
+    url('../styfont/styfont.woff?y5zil3') format('woff'),
+    url('../styfont/styfont.svg?y5zil3#styfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="stycon-"], [class*=" stycon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'styfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stycon-yinyan2:before {
+  content: "\e901";
+  color: #fff;
+}
+.stycon-ad:before {
+  content: "\e902";
+  color: #fff;
+}
+.stycon-home:before {
+  content: "\e900";
+}
+.stycon-quill:before {
+  content: "\e907";
+}
+.stycon-video-camera:before {
+  content: "\e914";
+}
+.stycon-spades:before {
+  content: "\e917";
+}
+.stycon-clubs:before {
+  content: "\e918";
+}
+.stycon-diamonds:before {
+  content: "\e919";
+}
+.stycon-feed:before {
+  content: "\e91d";
+}
+.stycon-library:before {
+  content: "\e921";
+}
+.stycon-ticket:before {
+  content: "\e939";
+}
+.stycon-coin-dollar:before {
+  content: "\e93b";
+}
+.stycon-coin-euro:before {
+  content: "\e93c";
+}
+.stycon-coin-pound:before {
+  content: "\e93d";
+}
+.stycon-coin-yen:before {
+  content: "\e93e";
+}
+.stycon-credit-card:before {
+  content: "\e93f";
+}
+.stycon-address-book:before {
+  content: "\e944";
+}
+.stycon-envelop:before {
+  content: "\e945";
+}
+.stycon-mobile2:before {
+  content: "\e959";
+}
+.stycon-bubbles2:before {
+  content: "\e96d";
+}
+.stycon-user-tie:before {
+  content: "\e976";
+}
+.stycon-quotes-left:before {
+  content: "\e977";
+}
+.stycon-quotes-right:before {
+  content: "\e978";
+}
+.stycon-search:before {
+  content: "\e986";
+}
+.stycon-gift:before {
+  content: "\e99f";
+}
+.stycon-rocket:before {
+  content: "\e9a5";
+}
+.stycon-fire:before {
+  content: "\e9a9";
+}
+.stycon-lab:before {
+  content: "\e9aa";
+}
+.stycon-earth:before {
+  content: "\e9ca";
+}
+.stycon-eye:before {
+  content: "\e9ce";
+}
+.stycon-heart:before {
+  content: "\e9da";
+}
+.stycon-cool:before {
+  content: "\e9eb";
+}
+.stycon-cool2:before {
+  content: "\e9ec";
+}
+.stycon-point-up:before {
+  content: "\ea03";
+}
+.stycon-section:before {
+  content: "\ea76";
+}
+.stycon-embed2:before {
+  content: "\ea80";
+}
+.stycon-terminal:before {
+  content: "\ea81";
+}
+.stycon-facebook2:before {
+  content: "\ea91";
+}
+.stycon-instagram:before {
+  content: "\ea92";
+}
+.stycon-telegram:before {
+  content: "\ea95";
+}
+.stycon-twitter:before {
+  content: "\ea96";
+}
+.stycon-youtube:before {
+  content: "\ea9d";
+}
+.stycon-github:before {
+  content: "\eab0";
+}
+.stycon-linkedin:before {
+  content: "\eac9";
 }
