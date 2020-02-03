@@ -10,7 +10,7 @@ body {
     background-size: cover;
 }
 .Cover-height{
-    min-height: 25vh;
+    min-height: 35vh;
 }
 .Color-blue{
     color: #2e99ff;
@@ -38,9 +38,9 @@ h1{
     margin-bottom: 10px
 }
 .Heading h1{
-    
     color: #ff002f;
-    font-size: 1.73rem;
+    font-size: 1.678rem;
+    margin-bottom: -5px;
     text-shadow: 1px 1px 2px #000;
 }
 .Hero {
@@ -56,8 +56,12 @@ h1{
 .Margin-bottom{
     margin-bottom:20px
 }
-.Margin-bottom-6{
-    margin-bottom: 6px
+.Social-icons-block{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.Social-icons-block a{
+    color:white;
 }
 .Margin-top{
     margin-top:20px
@@ -88,8 +92,8 @@ p{
     max-height: 18px
 }
 .Second-heading {
-    font-size: 1.8em;
-    margin-bottom: 0
+    font-size: 1.695em;
+    margin-bottom: 0;
 }
 .Small-line-height{
     line-height: 1.1;
